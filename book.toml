@@ -1,0 +1,11 @@
+[book]
+authors = ["Bendi11"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Team 1280 Electrical Handbook"
+
+# Credit: JorelAli/mdBook-pagetoc on Github
+[output.html]
+additional-css = ["style.css"]
+additional-js = ["sidebar.js"]
