@@ -1,0 +1,8 @@
+baseURL = 'http://team-1280.github.io/'
+languageCode = 'en-us'
+title = 'Team 1280 Electrical Handbook'
+theme = "hugo-book"
+
+[params]
+BookTheme = 'dark'
+BookLogo = '1280-logo.png'
