@@ -6,7 +6,7 @@ title: "FRC Electrical Guide"
 
 # There and Back Again: Making an FRC Electrical System
 
-![Pilot tied to an F16's missile hardpoint](/aaq.jpg)
+![Pilot tied to an F16's missile hardpoint](/electrical-book/aaq.jpg)
 
 Welcome to the full guide on how to create an FRC-compliant electrical board. This guide should introduce you to every step of the process involved in wiring a 
 robot, from the communications with other subteams to where to run the wires.

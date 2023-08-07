@@ -8,7 +8,7 @@ title: "Electrical Engineering Basics"
 Don't tell the college admissions officials I blatantly lied to here but an advanced knowledge of electrical engineering is not generally required to create an FRC electrical board.
 
 
-![Extremely messy circuit wiring that takes up an entire desk](/wiring-hell.jpg)
+![Extremely messy circuit wiring that takes up an entire desk](/electrical-book/wiring-hell.jpg)
 
 
 That's not to say that understanding electricity will not help you, and a basic knowledge of DC voltage and current will be required.

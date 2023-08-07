@@ -1,4 +1,4 @@
-baseURL = 'http://team-1280.github.io/'
+baseURL = 'http://team-1280.github.io/electrical-book'
 languageCode = 'en-us'
 title = 'Team 1280 Electrical Handbook'
 theme = "hugo-book"
