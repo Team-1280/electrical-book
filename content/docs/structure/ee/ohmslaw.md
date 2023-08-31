@@ -142,8 +142,3 @@ Despite this, ohm's law holds true for every case we will use it for in the book
 {{< /hint >}}
 
 Ohm's law relates `voltage` (**V**), `current` (**I**), and `resistance` (**R**).
-
-
----
-
-Armed with your new electrical engineering tools, we're ready to learn how to [build a board](/electrical-book/docs/structure/build/overview)
