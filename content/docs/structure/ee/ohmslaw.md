@@ -42,7 +42,10 @@ That requires the help of two other measurements.
 Officially, voltage is a measure of the electrical 'potential difference' between two points.
 Imagine `voltage` as a measurement of the force that pushes `current` through a wire.
 If the voltage is higher, more current is shoved through the wire than if the voltage is lower.
+Voltage is measured in 'volts'.
 
+It is very important to remember that `voltage` is a measurement **between** two points.
+For example, a 12 volt battery has a positive and negative terminal: we would say that there is 12 volts *across* the terminals.
 
 If electrical `current` can be thought of as how *much* water flows through a pipe per second, then `voltage` can be thought of as water pressure.
 If the pressure is higher, more water will flow through the same sized pipe.
@@ -51,6 +54,7 @@ That leads us to the final measure needed to model basic circuits: `resistance`.
 ## Resistance
 
 Think of resistance as how much something pushes back, or 'resists' the flow of electrical `current`.
+Resistance is measured in 'ohms', or the greek character 'Ω', a decision made by the scriptwriters foreshadowing what you will learn later.
 
 To help, let's go back to the water in a pipe model.
 If `voltage` is the water pressure, and `current` is the amount of water passing through the pipe per second, then `resistance` is the size of the pipe that the water is going through.
@@ -105,4 +109,41 @@ Do with this information what you must.
 
 {{< /details >}}
 
+## The Formalities
 
+Hopefully, you have a grasp of what voltage, current, and resistance actually *are*.
+You'll learn how these measurements are used throughout the rest of the book.
+
+So, voltage pushes current through a wire, which has resistance that limits how much current can be pushed by voltage.
+But how do we calculate, for example, how much current will flow through a wire when 12 volts are applied across it?
+
+![Ohm's law triangle: V is on top, with I and R side-by-side on the bottom](/electrical-book/img/ohmslawtri.gif#center)
+
+For this, we use **Ohm's Law**.
+
+{{< columns >}}
+
+{{< katex >}} V = I * R {{< /katex >}}
+
+<--->
+
+{{< katex >}} I = \frac{V}{R} {{< /katex >}}
+
+<--->
+
+{{< katex >}} R = \frac{V}{I} {{< /katex >}}
+
+{{< /columns >}}
+
+{{< hint info >}}
+We will later learn that Ohm's Law is not actually a law.
+There are a *lot* of phenomena that break it, notably most semiconductors and static electricity.
+Despite this, ohm's law holds true for every case we will use it for in the book.
+{{< /hint >}}
+
+Ohm's law relates `voltage` (**V**), `current` (**I**), and `resistance` (**R**).
+
+
+---
+
+Armed with your new electrical engineering tools, we're ready to learn how to [build a board](/electrical-book/docs/structure/build/overview)
