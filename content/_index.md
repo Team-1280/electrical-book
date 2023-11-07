@@ -2,7 +2,7 @@
 
 ![Team 1280 Logo](/electrical-book/img/1280-logo.png#center)
 
-Welcome to the Team 1280 Electrical Handbook, containing everything needed to ascend from a mechanical grunt to an educated electrical erudite. This guide would add information on useful objects that might be useful for your personal projects. We encourage you to add this github page and add on information. If there is any questions for your own help please submit a pull requeust on Github or send a discord message to the former eletrical people.
+Welcome to the Team 1280 Electrical Handbook, containing everything needed to ascend from a mechanical grunt to an educated electrical erudite. This guide would add information on useful objects that might be useful for your personal projects. We encourage you to add to this github page and add on information. If there is any questions for your own help please submit a pull requeust on Github or send a discord message to the former eletrical people. We also encourage you to become a hobbyist and develop your own projects. 
 
 {{< hint info >}}
 This handbook is divided into a **reference** section and a **book** section meant to take you through the process of building an electrical board.
