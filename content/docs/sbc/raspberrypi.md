@@ -29,3 +29,16 @@ And you can use any editior of your choice to control the GPIO
 
 Full guide [here](https://projects.raspberrypi.org/en/projects/physical-computing/ "https://projects.raspberrypi.org/en/projects/physical-computing/")
 
+## Board types:
+### Raspberry Pi 1/2/3/4/5 (B[+])
+"Full size" Raspberry Pi commonly in a 900Mhz~2.4Ghz Arm CPU with 512MB~16GB of Ram, with a power source and a MicroSD slot. These systems range around $45~$75 and are overkill for most applications, use these for pereminant projects disparingly. It is usually used for developing and testing your projects to port it in a smaller form factor.  
+
+Branch includes: 
+* Raspberry Pi 1 B+ - *same as RPi 1,2*
+* Raspberry Pi 2 B - *900Ghz (Cortex A7); 1GB RAM MicroUSB power*
+* Raspberry Pi 3 B - *1.2Ghz (Brodcom 64Bit); 1GB RAM; BCM43438 (WLan, BTE); MicroUSB power*
+* Raspberry Pi 3 B+ - *1.4Ghz (Cortex-A53 ARMv8); 1GB LPDDR2 sdRAM; 2.4Ghz/5Ghz IEEE802.11.b/g/n/ac Wlan & BLE; GB Ethernet; Micro USB power; POE support*
+* Raspberry Pi 4 - *1.8Ghz (Cortex-A72 ARMv8); 1,2,4,8GB LPDDR4 3200Mhz; 2.4Ghz/5Ghz IEEE802.11ac Wireless & BLE 5.0, GB Ethernet; USB-C power; 2 MicroHDMI 4k@60*
+* Raspberry Pi 5 - *2.4Ghz (Cortex-A76 ARMv8.2);
+
+![Raspberry Pi Diagram](/electrical-book/img/raspberryPiDiagram.jpg)  
