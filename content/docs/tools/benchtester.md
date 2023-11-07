@@ -4,7 +4,7 @@ title: Bench Tester / DC power Supply
 
 # Bench Tester / DC power Supply
 
-![Bench Tester](/static/img/powersupply.jpg)
+![Bench Tester](/electrical-book/img/powersupply.jpg#center)
  
 *I know amazing photo right stolen off amazon XD*
 

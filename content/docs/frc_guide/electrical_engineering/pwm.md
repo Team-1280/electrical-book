@@ -22,3 +22,5 @@ Let's say you repeatedly turned a light on for 3 seconds, then off for 2 seconds
 
 Here' the **period** of the signal you're making with the light would be {{< katex >}}3 + 2 = 5{{< /katex >}} seconds,
 and the **duty cycle** of the signal would be {{< katex >}} \frac{3}{5} = 60\% {{< /katex >}}
+
+PWM is basically what a Digital device can take as a input. PWM modules are are converted to machines' sensory detail. 
