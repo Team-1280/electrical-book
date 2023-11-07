@@ -1,9 +1,8 @@
 ---
-title: Raspberry Pi 2/3/4/5 (B[+]) & Raspberry Pi Zero W (2) & Raspberry Pico
+title: Raspberry Pi
 ---
 
-# Raspberry Pi
-
+# Raspberry Pi 2/3/4/5 (B[+]) & Raspberry Pi Zero W (2) & Raspberry Pico
 > " The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python. It’s capable of doing everything you’d expect a desktop computer to do, from browsing the internet and playing high-definition video, to making spreadsheets, word-processing, and playing games. What’s more, the Raspberry Pi  has the ability to interact with the outside world, and has been used in a wide array of digital maker projects, from music machines and parent detectors to weather stations and tweeting birdhouses with infra-red cameras. We want to see the Raspberry Pi being used by kids all over the world to learn to program and understand how computers work." -Raspberry Pi Foundation UK
 
 Raspberry Pi is a more community supported SBC many OSes only support the Raspberry Pi for it's abundence and price. These computers can be used to make handhealds, IOT hubs, and Retro Game Emulators. For the price of $70 for the Flagship and best model, it is a reasonable price for hardware hacking, and development. These boards fueled many projects which develop learning and informative oppertunities. 
