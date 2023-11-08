@@ -13,6 +13,9 @@ As the name suggests, it is a single board computer that functions as a Microcon
 To view all of these single board computers in one place, visit [SBC Database](https://hackerboards.com/ "boardsdb.com").   
 
 ## What are the use cases for each board
+
+![Lattepanda](/electrical-book/img/lattepanda.jpg)
+
 Many of the popular ones include **[Nvidia Jetson](https://developer.nvidia.com/embedded/jetson-developer-kits)** which are typically used to develop AI-based applications. **[Raspberry Pi](https://www.raspberrypi.com/products/)** which is the more supported and the most hacked among the community, support for these boards are extraordaniry and can be many versatile applications. 
 
 The **[Odroid](https://www.hardkernel.com/product/)** and **[BeagleBoards](https://www.beagleboard.org/boards)** a good introduction to SBC and their pros, Odroid and BeagleBoards are commonly used for primarily headless servers and Linux-based Applications, due to their sizes they are not commonly found in handhealds.  
@@ -21,7 +24,7 @@ The **[Odroid](https://www.hardkernel.com/product/)** and **[BeagleBoards](https
 
 For a cheap aalternative with all of the functionality of a Raspberry Pi is the **[LibreComputer](https://libre.computer/products/aml-s905x-cc/)** and **[Asus Tynker Board](https://www.asus.com/us/networking-iot-servers/aiot-industrial-solutions/all-series/tinker-board/)** popular with building cluster due to the price to peformance.  
 
-A beefy, strong, and out peforming sbcs are the **[IntelNUC](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)**, **[LattePanda](https://www.lattepanda.com/_)**, **[Zimaboard](https://www.zimaboard.com/zimaboard/product)**, and **[UDOO](https://www.udoo.org/discover-the-udoo-bolt/)**; breaking the boundries of what one 5 Layer PCB can do and peform.  
+A beefy, strong, and out peforming sbcs are the **[IntelNUC](https://www.intel.com/content/www/us/en/products/details/nuc/boards/products.html)**, **[LattePanda](https://www.lattepanda.com/)**, **[Zimaboard](https://www.zimaboard.com/zimaboard/product)**, and **[UDOO](https://www.udoo.org/discover-the-udoo-bolt/)**; breaking the boundries of what one 5 Layer PCB can do and peform.  
 
 If you don't want the hassle of creating the computer, the **[PINE64 Foundation](https://pine64.com/)** produces hardware that fufill the portable Linux experience.  
 
