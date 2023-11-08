@@ -2,94 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/</loc>
+    <loc>http://team-1280.github.io/electrical-book/docs/devboards/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/with-toc/</loc>
+    <loc>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/without-toc/</loc>
+    <loc>http://team-1280.github.io/electrical-book/docs/frc_guide/overview/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>http://team-1280.github.io/electrical-book/docs/frc_guide/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/</loc>
+    <loc>http://team-1280.github.io/electrical-book/docs/sbc/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/collapsed/</loc>
+    <loc>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/ohmslaw/</loc>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>http://team-1280.github.io/electrical-book/docs/tools/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/modules/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/motor/</loc>
   </url><url>
     <loc>http://team-1280.github.io/electrical-book/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://team-1280.github.io/electrical-book/docs/tools/benchtester/</loc>
   </url><url>
     <loc>http://team-1280.github.io/electrical-book/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/collapsed/3rd-level/4th-level/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/collapsed/3rd-level/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/example/hidden/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/buttons/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/columns/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/details/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/expand/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/hints/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/katex/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/mermaid/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/section/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/section/first-page/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/section/second-page/</loc>
-  </url><url>
-    <loc>http://team-1280.github.io/electrical-book/docs/shortcodes/tabs/</loc>
+    <loc>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/can/</loc>
   </url><url>
     <loc>http://team-1280.github.io/electrical-book/docs/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/wiring/dupont/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/modules/mainbreaker/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/tools/multimeter/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/modules/pdp/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/pwm/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/sbc/raspberrypi/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/motor/spark/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/wiring/ring/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/modules/roborio/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/wiring/sb50/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/modules/rsl/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/tags/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/motor/talonsrx/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/wiring/weidmuller/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/modules/router/</loc>
+  </url><url>
+    <loc>http://team-1280.github.io/electrical-book/docs/reference/wiring/</loc>
   </url>
 </urlset>
