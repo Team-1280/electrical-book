@@ -1,200 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Team 1280 Electrical Handbook</title>
+    <title>Team 1280 Electrical Handbook</title>
     <link>http://team-1280.github.io/electrical-book/</link>
-    <description>Recent content in Introduction on Team 1280 Electrical Handbook</description>
+    <description>Recent content on Team 1280 Electrical Handbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://team-1280.github.io/electrical-book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://team-1280.github.io/electrical-book/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>With ToC</title>
-      <link>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/with-toc/</link>
+      <title>Example Board</title>
+      <link>http://team-1280.github.io/electrical-book/docs/frc_guide/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/with-toc/</guid>
-      <description>Caput vino delphine in tamen vias # Cognita laeva illo fracta # Lorem markdownum pavent auras, surgit nunc cingentibus libet Laomedonque que est. Pastor An arbor filia foedat, ne fugit aliter, per. Helicona illas et callida neptem est Oresitrophos caput, dentibus est venit. Tenet reddite famuli praesentem fortibus, quaeque vis foret si frondes gelidos gravidae circumtulit inpulit armenta nativum.
-Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara postquam habitasse Subitarum supplevit quoque fontesque venabula spretis modo Montis tot est mali quasque gravis Quinquennem domus arsit ipse Pellem turis pugnabant locavit Natus quaerere # Pectora et sine mulcere, coniuge dum tincta incurvae.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/frc_guide/overview/</guid>
+      <description>An Example Board # Let&amp;rsquo;s start building a complete electrical board that can control a standard tank drivebase (just normal wheels on each side, two motors per side). For extra practice with all sorts of motor controllers we&amp;rsquo;ll use one CAN-controlled motor controller and one PWM-driven.
+Here&amp;rsquo;s what you should gather if you want to build this yourself:
+1 PDP Around a foot at most of 4 AWG Red wire 4 M6 Ring Terminals 1 Main Breaker 1 SB50 Battery Connector Red + Black 12 AWG Wire Spool Red + Black 20 AWG Wire Spool 1 RoboRIO 1 Status Light Green + Yellow 24 AWG CAN Bus wire 2 PWM Motor Controllers (e.</description>
     </item>
-    
     <item>
-      <title>Without ToC</title>
-      <link>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/without-toc/</link>
+      <title>The Basics - Ohm&#39;s Law</title>
+      <link>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/ohmslaw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/example/table-of-contents/without-toc/</guid>
-      <description>At me ipso nepotibus nunc celebratior genus # Tanto oblite # Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
-Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/ohmslaw/</guid>
+      <description>Just the Concepts of Electrical Engineering You Need # Don&amp;rsquo;t tell the college admissions officials I blatantly lied to here but an advanced knowledge of electrical engineering is not generally required to create an FRC electrical board.
+That&amp;rsquo;s not to say that understanding electricity will not help you, and a basic knowledge of Direct voltage and current (DC) will be required. That is what this section will attempt to teach- an understanding of what is actually happening in the wires when you plug them in.</description>
     </item>
-    
     <item>
-      <title>Creating a New Theme</title>
-      <link>http://team-1280.github.io/electrical-book/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/posts/creating-a-new-theme/</guid>
-      <description>Introduction # This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>http://team-1280.github.io/electrical-book/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://team-1280.github.io/electrical-book/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://team-1280.github.io/electrical-book/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs # Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/example/collapsed/3rd-level/4th-level/</link>
+      <title>Bench Tester / DC power Supply</title>
+      <link>http://team-1280.github.io/electrical-book/docs/tools/benchtester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/example/collapsed/3rd-level/4th-level/</guid>
-      <description>4th Level of Menu # Caesorum illa tu sentit micat vestes papyriferi # Inde aderam facti; Theseus vis de tauri illa peream. Oculos uberaque non regisque vobis cursuque, opus venit quam vulnera. Et maiora necemque, lege modo; gestanda nitidi, vero? Dum ne pectoraque testantur.
-Venasque repulsa Samos qui, exspectatum eram animosque hinc, aut manes, Assyrii. Cupiens auctoribus pariter rubet, profana magni super nocens. Vos ius sibilat inpar turba visae iusto!</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/tools/benchtester/</guid>
+      <description>Bench Tester / DC power Supply # I know amazing photo right stolen off amazon XD
+Quick Start # As the name suggests, the bench tester is a item that is used to test voltages and amp. You are given 2 dials, 3 ports, and 2 probes for a standard Bench Tester. The bench tester has these for the user to test the circuit. The dial for voltage controls the voltage and the dial for current manipulates the amp.</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/example/hidden/</link>
+      <title>Controller Area Network</title>
+      <link>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/can/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/example/hidden/</guid>
-      <description>This page is hidden in menu # Quondam non pater est dignior ille Eurotas # Latent te facies # Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
-Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor Cum honorum Latona # O fallor in sustinui iussorum equidem.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/can/</guid>
+      <description>Controller Area Network - Anyone can CAN! # You CAN learn more about the CAN bus here</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/buttons/</link>
+      <title>DuPont PWM Connector</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/wiring/dupont/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/buttons/</guid>
-      <description> Buttons # Buttons are styled links that can lead to local page or external link.
-Example # {{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}} Get Home Contribute </description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/wiring/dupont/</guid>
+      <description> 3 Wire Connectors # </description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/columns/</link>
+      <title>Main Breaker</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/modules/mainbreaker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/columns/</guid>
-      <description>Columns # Columns help organize shorter pieces of content horizontally for readability.
-{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Right Content Lorem markdownum insigne... {{&amp;lt; /columns &amp;gt;}} Example # Left Content # Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/modules/mainbreaker/</guid>
+      <description> The Main Circuit Breaker # </description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/details/</link>
+      <title>Multimeter</title>
+      <link>http://team-1280.github.io/electrical-book/docs/tools/multimeter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/details/</guid>
-      <description> Details # Details shortcode is a helper for details html5 element. It is going to replace expand shortcode.
-Example # {{&amp;lt; details &amp;#34;Title&amp;#34; [open] &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} {{&amp;lt; details title=&amp;#34;Title&amp;#34; open=true &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} Title Markdown content # Lorem markdownum insigne&amp;hellip; </description>
+      <guid>http://team-1280.github.io/electrical-book/docs/tools/multimeter/</guid>
+      <description>Multimeter # A multimeter, short for &amp;ldquo;multiple meter,&amp;rdquo; is a versatile and indispensable electronic measuring instrument used in a wide range of applications, particularly in the fields of electronics, electrical engineering, and troubleshooting. This device is designed to provide accurate measurements of various electrical parameters, making it an essential tool for professionals and hobbyists alike. - ChatGPT3.5
+The multimeter usually used for testing and understanding the functionalities of components. For say, there is a certain part of the circuit that seems to not work: Firstly, check all connections with your eyes, see if there are any shortcuts done by the previous engineer.</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/expand/</link>
+      <title>Power Distribution Panel</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/modules/pdp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/expand/</guid>
-      <description>Expand # Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
-Example # Default # {{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}} Expand ↕ Markdown content # Lorem markdownum insigne&amp;hellip; With Custom Label # {{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;...&amp;#34; &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}} Custom Label ... Markdown content # Lorem markdownum insigne.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/modules/pdp/</guid>
+      <description> The Power Distribution Panel / Board # </description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/hints/</link>
+      <title>Pulse Width Modulation</title>
+      <link>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/pwm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/hints/</guid>
-      <description>Hints # Hint shortcode can be used as hint/alerts/notification block.
-There are 3 colors to choose: info, warning and danger.
-{{&amp;lt; hint [info|warning|danger] &amp;gt;}} **Markdown content** Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa {{&amp;lt; /hint &amp;gt;}} Example # Markdown content
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa Markdown content</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/frc_guide/electrical_engineering/pwm/</guid>
+      <description>PWM (Pulse Width Modulation) # Think of PWM as a way to send a number between 0% and 100% over a single wire.
+Many of the acronyms in FRC and engineering in general hide a name that is actually very self-descriptive. PWM - Pulse Width Modulation works by turning a signal on an off again many times per second.
+The amount of time between the signal being turned on, turned off, and turned on again is called the &amp;lsquo;period&amp;rsquo;.</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/katex/</link>
+      <title>Raspberry Pi Family</title>
+      <link>http://team-1280.github.io/electrical-book/docs/sbc/raspberrypi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/katex/</guid>
-      <description>KaTeX # KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
-Example # {{&amp;lt;/* katex [display] [class=&amp;#34;text-center&amp;#34;] */&amp;gt;}} f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&amp;lt;/* /katex */&amp;gt;}} Display Mode Example # Here is some inline example: \(\pi(x)\) , rendered in the same line. And below is display example, having display: block \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\] Text continues here.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/sbc/raspberrypi/</guid>
+      <description>Raspberry Pi 2/3/4/5 (B[+]) &amp;amp; Raspberry Pi Zero W (2) &amp;amp; Raspberry Pico # &amp;quot; The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python. It’s capable of doing everything you’d expect a desktop computer to do, from browsing the internet and playing high-definition video, to making spreadsheets, word-processing, and playing games.</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/mermaid/</link>
+      <title>REV Robotics Spark</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/motor/spark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/mermaid/</guid>
-      <description>Mermaid Chart # MermaidJS is library for generating svg charts and diagrams from text.
-Override Mermaid Initialization Config
-To override the initialization config for Mermaid, create a mermaid.json file in your assets folder!
-Example # {{&amp;lt;/* mermaid [class=&amp;#34;text-center&amp;#34;]*/&amp;gt;}} stateDiagram-v2 State1: The state with a note note right of State1 Important information! You can write notes. end note State1 --&amp;gt; State2 note left of State2 : This is the note to the left.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/motor/spark/</guid>
+      <description> REV Robotics Spark Motor Controller # </description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/section/first-page/</link>
+      <title>Ring Terminal</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/wiring/ring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/section/first-page/</guid>
-      <description>First page # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/wiring/ring/</guid>
+      <description> Ring Terminals # </description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/section/second-page/</link>
+      <title>RoboRIO</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/modules/roborio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/section/second-page/</guid>
-      <description>Second Page # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/modules/roborio/</guid>
+      <description>The RoboRIO # The RoboRIO is the brains of the robot, and will be a sort of hub that every other part should connect back to in some way.
+As of 2022, it is required by FRC rules that a RoboRIO be used to at minimum control all output devices! External processors are allowed, however consult the FRC rulebook for the current year to check exactly how it is allowed to interface with the rest of the robot.</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>http://team-1280.github.io/electrical-book/docs/shortcodes/tabs/</link>
+      <title>SB50 Connector</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/wiring/sb50/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://team-1280.github.io/electrical-book/docs/shortcodes/tabs/</guid>
-      <description>Tabs # Tabs let you organize content by context, for example installation instructions for each supported platform.
-{{&amp;lt; tabs &amp;#34;uniqueid&amp;#34; &amp;gt;}} {{&amp;lt; tab &amp;#34;MacOS&amp;#34; &amp;gt;}} # MacOS Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Linux&amp;#34; &amp;gt;}} # Linux Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Windows&amp;#34; &amp;gt;}} # Windows Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabs &amp;gt;}} Example # MacOS MacOS # This is tab MacOS content.
-Lorem markdownum insigne. Olympo signis Delphis!</description>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/wiring/sb50/</guid>
+      <description> Anderson SB50 Connector # </description>
     </item>
-    
+    <item>
+      <title>Status Light</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/modules/rsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/modules/rsl/</guid>
+      <description> Status Light # </description>
+    </item>
+    <item>
+      <title>Talon SRX</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/motor/talonsrx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/motor/talonsrx/</guid>
+      <description> VEX Robotics Talon SRX # </description>
+    </item>
+    <item>
+      <title>Weidmuller Connectors</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/wiring/weidmuller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/wiring/weidmuller/</guid>
+      <description> Weidmuller Connectors # </description>
+    </item>
+    <item>
+      <title>WiFi Router</title>
+      <link>http://team-1280.github.io/electrical-book/docs/reference/modules/router/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://team-1280.github.io/electrical-book/docs/reference/modules/router/</guid>
+      <description> The WiFi Router # </description>
+    </item>
   </channel>
 </rss>
