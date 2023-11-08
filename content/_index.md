@@ -20,3 +20,7 @@ See [Tools](docs/tools) for information on how to use certain tools and properly
 See [DevBoards](docs/devboards) for information on development board manufactures and their pros and cons
 
 See [SBC](docs/sbc) for information on single board computers that might pose a use in your day to day projects
+
+{{< hint info >}}
+If you plan to add and contribute to this handbook, see [Contributing](docs/contributing) for setting up your development environment and a style guide.
+{{< /hint >}}
