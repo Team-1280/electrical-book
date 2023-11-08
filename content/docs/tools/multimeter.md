@@ -4,7 +4,7 @@ title: Multimeter
 
 # Multimeter
 
-![Electrical](electrical-book/img/electrical.gif)
+![Electrical](electrical-book/img/electrical.gif#center)
 
 >A multimeter, short for "multiple meter," is a versatile and indispensable electronic measuring instrument used in a wide range of applications, particularly in the fields of electronics, electrical engineering, and troubleshooting. This device is designed to provide accurate measurements of various electrical parameters, making it an essential tool for professionals and hobbyists alike. - ChatGPT3.5
 
@@ -14,7 +14,7 @@ What a multi meter does is to measure the voltage / amp of a live circuit; measu
 
 You will be learning the different parts of a multi meter in the following diagram, see the following diagram:
 
-![MultimeterCheatsheet](electrical-book/img/multimeterdiagram.png)
+![MultimeterCheatsheet](electrical-book/img/multimeterdiagram.png#center)
 
 If you wish the video [How to use a Multimeter](https://www.youtube.com/watch?v=4lAyzRxsbDc)
 
