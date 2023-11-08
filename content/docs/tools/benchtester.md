@@ -1,8 +1,8 @@
 ---
-title: Bench Tester / DC power Supply
+title: Bench Top Power Supply 
 ---
 
-# Bench Tester / DC power Supply
+# Bench Tester / DC power Supply / Bench Top Power Supply
 
 ![Bench Tester](/electrical-book/img/powersupply.jpg#center)
  
