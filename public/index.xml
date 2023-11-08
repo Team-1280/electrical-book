@@ -30,7 +30,11 @@ That&amp;rsquo;s not to say that understanding electricity will not help you, an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://team-1280.github.io/electrical-book/docs/tools/benchtester/</guid>
       <description>Bench Tester / DC power Supply # I know amazing photo right stolen off amazon XD
+<<<<<<< HEAD
 Quick Start # As the name suggests, the bench tester is a item that is used to test voltages and amp. You are given 2 dials, 3 ports, and 2 probes for a standard Bench Tester. The bench tester has these for the user to test the circuit. The dial for voltage controls the voltage and the dial for current manipulates the amp.</description>
+=======
+A bench power supply, also known as a laboratory power supply or bench power source, is a piece of electronic test equipment used to provide a controlled and adjustable voltage and current output to power and test electronic devices and circuits. It is commonly found in laboratories, workshops, and electronics testing environments. -ChatGPT 3.</description>
+>>>>>>> 9c001e1 (link fixes)
     </item>
     <item>
       <title>Controller Area Network</title>

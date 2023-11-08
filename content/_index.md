@@ -9,7 +9,7 @@ This handbook is divided into a **reference** section and a **book** section mea
 When reading the book section, make sure to follow any links to things you haven't yet learned of - if it's linked to a page, it's expected that you've familiarized yourself with it.
 {{< /hint >}}
 
-[This guide](/electrical-book/docs/devboards) will provide you information on giving your hobbies a brain and teaching you the basics to power your projects and tools to power it. Certain applications with more intesive applications might need to be fueled by a stronger [Arm](/electrical-book/docs/sbc). These will power the frequencies in the wires but for FRC you'll only be using the [RoboRio](/electrical-book/docs/modules/roborio).
+[This guide](/electrical-book/docs/devboards) will provide you information on giving your hobbies a brain and teaching you the basics to power your projects and tools to power it. Certain applications with more intesive applications might need to be fueled by a stronger [Arm](/electrical-book/docs/sbc). These will power the frequencies in the wires but for FRC you'll only be using the [RoboRio](/electrical-book/docs/reference/modules/roborio).
 
 See [Making an FRC Electrical Board](docs/frc_guide) for a start-to-finish guide.
 
