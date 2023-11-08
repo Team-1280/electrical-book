@@ -33,7 +33,7 @@ Full guide [here](https://projects.raspberrypi.org/en/projects/physical-computin
 ### Raspberry Pi 1/2/3/4/5 (B[+])
 "Full size" Raspberry Pi commonly in a 900Mhz~2.4Ghz Arm CPU with 512MB~16GB of Ram, with a power source and a MicroSD slot. These systems range around $45~$75 and are overkill for most applications, use these for pereminant projects disparingly. It is usually used for developing and testing your projects to port it in a smaller form factor.  
 
-Branch includes: 
+#### Branch includes: 
 * Raspberry Pi 1 B+ - *same as RPi 1,2*
 * Raspberry Pi 2 B - *900Ghz (Cortex A7); 1GB RAM MicroUSB power*
 * Raspberry Pi 3 B - *1.2Ghz (Brodcom 64Bit); 1GB RAM; BCM43438 (WLan, BTE); MicroUSB power*
@@ -42,3 +42,6 @@ Branch includes:
 * Raspberry Pi 5 - *2.4Ghz (Cortex-A76 ARMv8.2); 4,8GB LPDDR4x 4267Mhz; 2.4Ghz/5Ghz IEEE802.11ac Wlan & BLE 5.0, GB PoE; USB-C power; 2 MicroHDMI 4k@60; RTC(Real time clock); PCIE 2.0; Power Button; RP1 Controller*
 
 ![Raspberry Pi Diagram](/electrical-book/img/raspberryPiDiagram.jpg)  
+
+### Raspberry Pi Zero (2) W
+The Raspberry Pi zero is a smaller formfactor SBC
