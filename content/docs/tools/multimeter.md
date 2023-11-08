@@ -14,7 +14,7 @@ What a multi meter does is to measure the voltage / amp of a live circuit; measu
 
 You will be learning the different parts of a multi meter in the following diagram, see the following diagram:
 
-![MultimeterCheatsheet](/electrical-book/img/multimeterdiagram.png#center)
+![MultimeterCheatsheet](/electrical-book/img/multimetercheatsheet.png#center)
 
 If you wish the video [How to use a Multimeter](https://www.youtube.com/watch?v=4lAyzRxsbDc)
 
