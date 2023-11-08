@@ -1,4 +1,4 @@
 ---
 title: "Oscilloscope"
 ---
-# Oscilliscope
+# Oscilliscope - for people with OCD
