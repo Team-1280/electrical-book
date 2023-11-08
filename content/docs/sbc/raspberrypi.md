@@ -7,7 +7,7 @@ title: Raspberry Pi Family
 
 > " The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python. It’s capable of doing everything you’d expect a desktop computer to do, from browsing the internet and playing high-definition video, to making spreadsheets, word-processing, and playing games. What’s more, the Raspberry Pi  has the ability to interact with the outside world, and has been used in a wide array of digital maker projects, from music machines and parent detectors to weather stations and tweeting birdhouses with infra-red cameras. We want to see the Raspberry Pi being used by kids all over the world to learn to program and understand how computers work." -Raspberry Pi Foundation UK
 
-Raspberry Pi is a more community supported SBC many OSes only support the Raspberry Pi for it's abundence and price. These computers can be used to make handhealds, IOT hubs, and Retro Game Emulators. For the price of $70 for the Flagship and best model, it is a reasonable price for hardware hacking, and development. These boards fueled many projects which develop learning and informative oppertunities.  
+Raspberry Pi is a more community supported SBC (Single board Computer). Many Arm-Based OSes only support the Raspberry Pi for it's abundence and price. These computers can be used to make handhealds, IOT hubs, and Retro Game Emulators. For the price of $70 for the Flagship and best model, it is a reasonable price for hardware hacking, and development. These boards fueled many projects which develop learning and informative oppertunities.  
 ![RaspberryPi](/electrical-book/img/raspberry-pi.jpg#center)
 
 ## Installation/Getting Started
@@ -38,7 +38,7 @@ Branch includes:
 * Raspberry Pi 2 B - *900Ghz (Cortex A7); 1GB RAM MicroUSB power*
 * Raspberry Pi 3 B - *1.2Ghz (Brodcom 64Bit); 1GB RAM; BCM43438 (WLan, BTE); MicroUSB power*
 * Raspberry Pi 3 B+ - *1.4Ghz (Cortex-A53 ARMv8); 1GB LPDDR2 sdRAM; 2.4Ghz/5Ghz IEEE802.11.b/g/n/ac Wlan & BLE; GB Ethernet; Micro USB power; POE support*
-* Raspberry Pi 4 - *1.8Ghz (Cortex-A72 ARMv8); 1,2,4,8GB LPDDR4 3200Mhz; 2.4Ghz/5Ghz IEEE802.11ac Wireless & BLE 5.0, GB Ethernet; USB-C power; 2 MicroHDMI 4k@60*
-* Raspberry Pi 5 - *2.4Ghz (Cortex-A76 ARMv8.2);
+* Raspberry Pi 4 - *1.8Ghz (Cortex-A72 ARMv8); 1,2,4,8GB LPDDR4 3200Mhz; 2.4Ghz/5Ghz IEEE802.11ac Wlan & BLE 5.0, GB Ethernet; USB-C power; 2 MicroHDMI 4k@60*
+* Raspberry Pi 5 - *2.4Ghz (Cortex-A76 ARMv8.2); 4,8GB LPDDR4x 4267Mhz; 2.4Ghz/5Ghz IEEE802.11ac Wlan & BLE 5.0, GB PoE; USB-C power; 2 MicroHDMI 4k@60; RTC(Real time clock); PCIE 2.0; Power Button; RP1 Controller*
 
 ![Raspberry Pi Diagram](/electrical-book/img/raspberryPiDiagram.jpg)  
