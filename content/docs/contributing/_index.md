@@ -32,9 +32,7 @@ gh repo clone Team-1280/electrical-book
 
 ### Editing
 
-Git (is intended) to make it easy to track and revert changes over time by multiple contributors. Rather than making loads of copies of the same content, Git tracks changes in lines of text, which works well for code and this guide.
-
-So, open up the electrical book in your editor, and you'll see a file structure (I've only highlighted the relevant stuff):
+Open up the electrical book in your editor, and you'll see a file structure (I've only highlighted the relevant stuff):
 
 ```
 ├── content
@@ -52,7 +50,7 @@ So, open up the electrical book in your editor, and you'll see a file structure 
 
 #### Outlining each folder:
 
--   `/content` is the main text of the book and each folder defines the structure of the book, which you can see in the sidebar.
+-   `/content` is the main text of the book and each folder defines the structure of the book, which you can see in the sidebar. **You'll be editing this most of the time.**
 -   `/public` is the folder where the rendered pages that you see now are pooped out by **Hugo**, which is what we use to render plain **Markdown**. You don't need to look at this.
 -   `/static/img` is where you put your images if needed.
 -   `/themes` is what makes Hugo have the site to look like this, otherwise it would be ugly.
@@ -64,6 +62,36 @@ If `/themes` is empty, you won't be able to see your changes on your local machi
 If that is the case, run `git submodule update --init --recursive`, which redownloads the submodule for the theme (basically a link to another repo in Git).
 {{< /hint >}}
 
-Anyways, go and
+Anyways, to go and edit a file or add new pages, you'll need to work in the `/content` folder, which has all the contents of the book in plain Markdown.
+
+You can learn about the [syntax of Markdown](https://www.markdownguide.org/cheat-sheet/), it should be pretty intuitive and simple.
+
+Working with the book is simple:
+
+-   Each section you see in the sidebar is represented as a folder within `/content`. If that section should have a page itself, the `_index.md` which resides in that folder is the page that will show up if you navigate to that section.
+-   Within each section, markdown files describe each subpage. Name them in a descriptive way that makes it easy to maintain.
+
+Each page has specific **metadata** going at the top of the file that describes how Hugo should have said page appear in the sidebar:
+
+```
+---
+title: <STRING that appears in sidebar>
+
+optional stuff:
+weight: <NUMBER to override sidebar alphabetic sorting>
+bookFlatSection: <TRUE (by default)/FALSE should it appear "flat">
+bookCollapseSection: <TRUE/FALSE should it be collapsible>
+---
+```
+
+The rest of the markdown goes below.
+
+### How Git...?
+
+{{< hint info>}}
+**Git** ~~is intended~~ to make it easy to track and revert changes over time by multiple contributors. Rather than making loads of copies of the same content, Git tracks changes in lines of text, which works well for code and this guide. Don't worry about branches or insane pull requests because this isn't source code that will explode if merged incorrectly.
+{{< /hint >}}
+
+Ok,
 
 ### Style Guide
