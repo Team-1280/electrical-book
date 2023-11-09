@@ -92,6 +92,32 @@ The rest of the markdown goes below.
 **Git** ~~is intended~~ to make it easy to track and revert changes over time by multiple contributors. Rather than making loads of copies of the same content, Git tracks changes in lines of text, which works well for code and this guide. Don't worry about branches or insane pull requests because this isn't source code that will explode if merged incorrectly.
 {{< /hint >}}
 
-Ok,
+When making any sort of change to the book, whether that be addition, editing, or deletion, you'll need to **stage** said changes with Git. This basically loads your changes by asking Git to calculate the differences (diffs) between the historical file and your changes.
+
+In the CLI, run
+
+> `git add .`
+
+which **stages** all changes made by you.
+
+Then **commit** the staged changes; this is where you make your mark on history and let Git record your changes to the repo.
+
+> `git commit -m "<descriptive message or keyboard rolling>"`
+
+Technically your Git history is already updated, but what about the other contributors?! You have to upload your history (which records your changes) to Github, which is where we share our changes and synchronize.
+
+Make sure to **pull** first, because there are others who have made changes between the time of you downloading the repo and you committing.
+
+> `git pull`
+
+This grabs others changes so yours can come on top, neatly arranging the history in a non-conflicting way (hopefully). Now you can **push** your git history.
+
+> `git push`
+
+If nothing exploded, then you have successfully entered the hellscape of FLOSS... congrats?
+
+{{< hint danger>}}
+Something probably will explode. I cannot summarize a panacea for the worst part of collaboration which is merge conflicts... just go yell at a contributor on Discord or hop on [StackOverflow](https://stackoverflow.com/questions/71768999/how-to-merge-when-you-get-error-hint-you-have-divergent-branches-and-need-to-s).
+{{< /hint >}}
 
 ### Style Guide
